@@ -21,8 +21,8 @@ while True:
 	opening = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
 	#closing removes false negatives
 	closing = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)
-	tophat = cv2.
-	blackhat = cv2.
+	#tophat = cv2.
+	#blackhat = cv2.
 
 	#tophat is diff between input image and opening
 	#cv2.imshow('Tophat', tophat)
